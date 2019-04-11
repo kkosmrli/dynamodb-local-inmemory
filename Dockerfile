@@ -1,4 +1,4 @@
-FROM registry.edge.tmecosys.com/orajdk8-jre:8.74.02-4
+FROM openjdk:8-jre-alpine
 
 RUN apk add --update curl && \
     rm -rf /var/cache/apk/*
